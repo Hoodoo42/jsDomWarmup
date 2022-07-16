@@ -15,3 +15,9 @@ images[i].setAttribute(`src`, `https://images.unsplash.com/photo-1513775192371-1
 };
 
 
+let all_p_tags = document.querySelectorAll(`p`);
+for(i=0; i<all_p_tags.length; i++){
+    if(all_p_tags[i].include(`link`)){
+    
+    }
+}
